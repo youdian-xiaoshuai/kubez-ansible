@@ -61,7 +61,6 @@
 5. 访问 `dify`
     ```shell
     # 获取 dify 的 service 信息
-    [root@pixiu tmp]# kubectl get svc -n pixiu-system  dify
     root@k8s-master-1:~# kubectl  get  svc -n pixiu-system |  grep dify
     dify-api                ClusterIP   10.254.14.242    <none>        5001/TCP            26h
     dify-nginx              ClusterIP   10.254.55.184    <none>        80/TCP              26h
